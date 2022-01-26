@@ -341,9 +341,13 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
+    if (score <= 19) return '食堂打饭';
+    if (score <= 39) return '别学生物';
+    if (score <= 59) return '就这就这';
+    if (score <= 79) return '第一考场';
+    if (score <= 99) return '没有难度';
+    if (score <= 119) return '生物奇才';
+    if (score <= 129) return '浙大高材';
     if (score <= 199) return '您';
     return '人？';
 }
